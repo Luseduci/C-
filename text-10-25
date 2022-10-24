@@ -1,0 +1,35 @@
+#include<stdio.h>   \\财务管理
+int main()
+{
+    double a,sum=0;
+    int i;
+    for(i=1;i<=12;i++)
+    {
+        
+        scanf("%lf",&a);
+        sum=sum+a;
+    }
+    double b=sum/12;
+    printf("$%.2lf",b);
+    return 0;
+
+}
+
+
+
+
+
+#include<stdio.h>      均值
+int main()
+{
+    int n,i;
+    double sum,a;
+    sum=0;
+    scanf("%d\n",&n);
+    for(i=1;i<=n;i++){
+        scanf("%lf",&a);
+        sum=sum+a;
+    }
+    printf("%.4lf",sum/n);
+    return 0;
+}
