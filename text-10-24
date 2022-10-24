@@ -1,0 +1,34 @@
+#include<iostream>      //求平均年龄
+#include<cstdio>
+using namespace std;
+#include<math.h>
+int main()
+{
+    double sum;
+    int n,line,age;
+    scanf("%d\n",&n);
+    line=n;
+    sum=0;
+    while(line>0)
+    {
+        scanf("%d\n",&age);
+        line--;
+        sum+=age;
+
+    }
+    printf("%.2f",sum/n);
+    return 0;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
